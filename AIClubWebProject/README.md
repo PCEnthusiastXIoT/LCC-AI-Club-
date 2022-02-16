@@ -8,3 +8,8 @@ Right now, our goals are as follows:
 3. Create a plan for implementing a smart system to learn the lcc.edu site.
 4. Implement and test the system; integrating with a chatbot to assist interfacing
 5. Fine tune the system and work towards implementing it on the actual site!
+
+
+## Reference Links
+
+https://aws.amazon.com/blogs/machine-learning/deploy-a-web-ui-for-your-chatbot/
