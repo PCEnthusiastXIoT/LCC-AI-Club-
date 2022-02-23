@@ -30,7 +30,7 @@ LCC Affiliates
 LCC Alumni
 
 **Abstract:**
-Artificial Intelligence is becoming the way of right now rather than a goal of the future. There's many applications for its use and 
+Artificial Intelligence is becoming the way of right now rather than a goal of the future.  
 
 
 
