@@ -1,19 +1,27 @@
 # Welcome to the LCC AI Club Web Project!
 ## Our goal is to create a navigational bot to assist users navigating the lcc.edu website.
 
-### 2/23/22 Scope planning meeting
 
-Primary objective is to have a documented scope to follow and plan within, so project components can get divided up.
+### Project Name:
+LCC.edu NavBot
 
-## 3/2/22 Goals
+### 3/2/22 Meeting
+
+Created initial persona as a starting point to iterate over and create more
+Pulled Data to assist persona development: 
+- 18-21 is the largest age bracket
+- 22-29 is the second largest
+- 30-39 is tied for third with 50 & over
+
+### Post Spring Break Goals
 
 Have multiple personas to choose a primary persona from.
 The primary persona is going to drive development of the app in its inception and be used to define the initial design of the application.
 
-
-
-**Project Name:**
-LCC.edu NavBot
+**Personas wanted:**
+- Prospective student
+- Second time student
+- Career changer 
 
 
 **Customer/stakeholders:**
@@ -30,9 +38,6 @@ LCC Affiliates
 LCC Alumni
 
 **Abstract:**
-Artificial Intelligence is becoming the way of right now rather than a goal of the future.  
-
-
 
 ### **To Dos:**
 Starting 2/23/22 our main goal is going to be to mock up personas 
@@ -61,7 +66,12 @@ Determine what kind(s) of AI/ML we are going to use, and how-
     - myLCC
     
 Determine UI/UX components for the end user to interact with
-Sprint Planning next week
+
+### 2/23/22 Scope planning meeting
+
+Primary objective is to have a documented scope to follow and plan within, so project components can get divided up.
+
+## Additional Info
 
 ### Reference Links
 
