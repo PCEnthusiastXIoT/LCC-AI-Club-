@@ -5,9 +5,14 @@
 ### Project Name:
 LCC.edu NavBot
 
+### Abstract:
+
+LCC.edu is a large website that is meant to serve a broad community and provide information about Lansing Community College. There are multiple external affiliated sites that users typically need to use, particularly for students. The LCC.edu NavBot will provide a smart and adaptable method to assist users in navigating not only LCC.edu but also the affiliate sites like D2L and Banner Self Service, for example. It should be able to adapt to the user in order to provide personalized assistance with navigating the site, links, and doing things like registering for classes and guidng tuition payments. 
+
 ### 3/2/22 Meeting
 
-Created initial persona as a starting point to iterate over and create more
+Created initial persona as a starting point to iterate over and create more, started Kathy Paul as a second persona
+
 Pulled Data to assist persona development: 
 - 18-21 is the largest age bracket
 - 22-29 is the second largest
@@ -37,10 +42,9 @@ Prospective LCC Students
 LCC Affiliates
 LCC Alumni
 
-**Abstract:**
+### To Dos:
 
-### **To Dos:**
-Starting 2/23/22 our main goal is going to be to mock up personas 
+Create more personas to choose from as a primary persona
 
 Club members/Project builders/creators should submit a fully worked persona to use as a potential primary persona, and to build out a "user" base.
 Follow Link under Creating Personas under the References section and make sure to include the following:
@@ -54,6 +58,8 @@ Follow Link under Creating Personas under the References section and make sure t
  - Brands
 
 The best persona is the most complete persona for initial development purposes. More will be needed and utilized as the project continues
+
+Start some mockups based on the persona's that are most likely to end up as primary
 
 Determine what kind(s) of AI/ML we are going to use, and how- 
   - NLP for the chatbot
