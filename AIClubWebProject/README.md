@@ -9,25 +9,33 @@ LCC.edu NavBot
 
 LCC.edu is a large website that is meant to serve a broad community and provide information about Lansing Community College. There are multiple external affiliated sites that users typically need to use, particularly for students. The LCC.edu NavBot will provide a smart and adaptable method to assist users in navigating not only LCC.edu but also the affiliate sites like D2L and Banner Self Service, for example. It should be able to adapt to the user in order to provide personalized assistance with navigating the site, links, and doing things like registering for classes and guidng tuition payments. 
 
-### 3/2/22 Meeting
+### 3/23/22 Meeting
 
-Created initial persona as a starting point to iterate over and create more, started Kathy Paul as a second persona
+Finished Kathy Paul's persona
+Created Edward Carter
+Decided Kathy Paul will be primary persona
 
-Pulled Data to assist persona development: 
-- 18-21 is the largest age bracket
-- 22-29 is the second largest
-- 30-39 is tied for third with 50 & over
+### To Do's
 
-### Post Spring Break Goals
+- Diagram the LCC Website and affiliates
+- List other websites offering relevant information (scholarships, FAFSA, etc)
+- Lists of FAQ's regarding LCC.edu form students
+- Create a web crawler for indexing
+- Create a simple chatbot prototype with GUI
+- Create AWS API to power the interface
 
-Have multiple personas to choose a primary persona from.
-The primary persona is going to drive development of the app in its inception and be used to define the initial design of the application.
+Make a shareable doc for top three items
+GUI/API could be a bundle job
+Web Crawler can be done concurrently as well
+
+## Pull Requests
+
+Anyone interested in contributing to this project should create a pull request with a description of the contribution.
 
 **Personas wanted:**
 - Prospective student
 - Second time student
 - Career changer 
-
 
 **Customer/stakeholders:**
 Lansing Community College Staff
@@ -76,6 +84,15 @@ Determine UI/UX components for the end user to interact with
 ### 2/23/22 Scope planning meeting
 
 Primary objective is to have a documented scope to follow and plan within, so project components can get divided up.
+
+### 3/2/22 Meeting
+
+Created initial persona as a starting point to iterate over and create more, started Kathy Paul as a second persona
+
+Pulled Data to assist persona development: 
+- 18-21 is the largest age bracket
+- 22-29 is the second largest
+- 30-39 is tied for third with 50 & over
 
 ## Additional Info
 
