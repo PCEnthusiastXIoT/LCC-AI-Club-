@@ -18,3 +18,19 @@ Kathy has two children. She's aiming to make a career pivot from nursing to mark
 
 * Time is tight between nursing job and 2 kids as a single mother
 * Getting into the flow of being a student again
+* Managing busy schedule (class scheduling is very difficult)
+
+## Sources of Information
+
+* Online resources - social media, news sites
+* Relatives/Friends
+* Patients
+* Coworkers
+* Television News
+
+## Technology Utilised
+
+* Smartphone
+* Medical devices
+* Laptop (Macbook)
+* Tablet (iPad)
