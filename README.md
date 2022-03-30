@@ -5,10 +5,10 @@ Currently, our main project is a navigational aid for lcc.edu in the form of a c
 
 A schedule/itinerary for upcoming meetings will be provided/updated as well.
 
-## Upcoming week: 2/23/2022
+### Contributing
 
-### Plans: 
-  1. Define the project with end goals
-  2. Create a general architecture for the navigation system
-  3. Determine UI/UX requirements for the system
-  4. Schedule time next for next week
+Copy the https: address in the code tab in this repository. In the directory of your system where you want this repo to be, type 
+
+git clone [paste the address here]
+
+and you should be ready to start working!
