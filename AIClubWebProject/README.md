@@ -3,7 +3,7 @@
 
 
 ### Project Name:
-LCC.edu NavBot
+LCC.edu StarBot
 
 ### Abstract:
 
