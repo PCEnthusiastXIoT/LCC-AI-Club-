@@ -1,6 +1,8 @@
 from flask import Flask
 
-URL = 'https://google.com/'
+from scraper import scrape_site
+
+URL = 'https://lcc.edu/'
 
 app = Flask(__name__)
 
