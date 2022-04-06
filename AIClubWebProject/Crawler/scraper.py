@@ -29,6 +29,6 @@ def scrape_site(SAMPLE_URL):
         driver.find_element_by_css_selector('.additional_data').click()
 
     src = driver.page_source
-    parer = BeautifulSoup(src, "html.parser")
+    parser = BeautifulSoup(src, "html.parser")
     driver.close()
     return src, parser
