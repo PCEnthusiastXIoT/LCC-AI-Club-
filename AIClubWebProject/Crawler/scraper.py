@@ -1,32 +1,26 @@
 import time
-
 from bs4 import BeautifulSoup
-
 from selenium import webdriver
-
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
 
 
-def scrape_site(SAMPLE_URL):
+def scrape_site(sample_url):
     options = webdriver.ChromeOptions()
-    options.headless = True
-    options.add_argument("window-size=1920x1080")
+    options.add_argument("--headless")
+    options.add_argument("--window-size=1920x1080")
     options.add_argument('--no-sandbox')
     options.add_argument('--disable-gpu')
-
+    options.add_argument('--disable-dev-shm-usage')
     driver = webdriver.Chrome(options=options)
 
-    driver.get(SAMPLE_URL)
+    driver.get(sample_url)
 
     time.sleep(5)
 
-    for t in range(10):
-        driver.find_element_by_tag_name('body').send_keys(Keys.PAGE_DOWN)
+    #time.sleep(1)
 
-    for t in range(10):
-        time.sleep(1)
-
-        driver.find_element_by_css_selector('.additional_data').click()
+    #driver.find_element(By.CSS_SELECTOR, '.main-cta.started').click()
 
     src = driver.page_source
     parser = BeautifulSoup(src, "html.parser")

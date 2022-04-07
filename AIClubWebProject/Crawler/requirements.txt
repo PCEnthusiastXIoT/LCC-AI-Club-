@@ -1,5 +1,6 @@
+
 Flask
 beautifulsoup4>=4.6.0
 gunicorn==20.0.04
-selenium==3.141.0
+selenium==4
 Flask-Script
