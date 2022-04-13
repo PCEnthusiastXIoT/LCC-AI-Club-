@@ -11,27 +11,27 @@ def scrape_site(sample_url):
     options.add_argument("--window-size=1920x1080")
     options.add_argument('--no-sandbox')
     options.add_argument('--disable-gpu')
-    # options.add_argument('--disable-dev-shm-usage')
+    options.add_argument('--disable-dev-shm-usage')
     driver = webdriver.Chrome(options=options)
     # driver = webdriver.Chrome()
 
-    driver.get("https://www.google.com")
-
+    # driver.get("https://www.google.com")
+    driver.get(sample_url)
     # driver.title  # => "Google"
 
     # driver.implicitly_wait(0.5)
-    time.wait(5)
-    search_box = driver.find_element(By.NAME, "q")
-    search_button = driver.find_element(By.NAME, "btnK")
+    time.sleep(5)
+    # search_box = driver.find_element(By.NAME, "q")
+    # search_button = driver.find_element(By.NAME, "btnK")
 
-    search_box.send_keys("Selenium")
-    search_button.click()
+    # search_box.send_keys("Selenium")
+    # search_button.click()
 
-    driver.find_element(By.NAME, "q").get_attribute("value")  # => "Selenium"
+    # driver.find_element(By.NAME, "q").get_attribute("value")  # => "Selenium"
 
     src = driver.page_source
-    driver.quit()
-    # driver.get(sample_url)
+    # driver.quit()
+
 
     # time.sleep(5)
 
@@ -41,4 +41,4 @@ def scrape_site(sample_url):
 
     parser = BeautifulSoup(src, "html.parser")
     driver.close()
-    return src, parser
+    return src

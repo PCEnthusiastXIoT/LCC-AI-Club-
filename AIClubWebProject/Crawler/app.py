@@ -10,7 +10,13 @@ app = Flask(__name__)
 @app.route('/')
 def home():
 	result = scrape_site(URL)
+	return result
 
+
+@app.route('/get-started')
+def get_started():
+	url_started = URL + "admissions-financial-aid/get-started/index.html"
+	result = scrape_site(url_started)
 	return result
 
 
