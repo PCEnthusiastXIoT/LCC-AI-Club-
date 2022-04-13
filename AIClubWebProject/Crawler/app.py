@@ -15,8 +15,8 @@ def home():
 
 @app.route('/get-started')
 def get_started():
-	url_started = URL + "admissions-financial-aid/get-started/index.html"
-	result = scrape_site(url_started)
+	# url_started = URL + "admissions-financial-aid/get-started/index.html"
+	result = scrape_site(URL, "get-started")
 	return result
 
 

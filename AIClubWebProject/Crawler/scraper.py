@@ -5,7 +5,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
 
-def scrape_site(sample_url):
+# I'm defining this function a more or less hard coded extra arg, so I can work on web driving
+def scrape_site(sample_url, extra_nav=""):
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")
     options.add_argument("--window-size=1920x1080")
@@ -15,11 +16,8 @@ def scrape_site(sample_url):
     driver = webdriver.Chrome(options=options)
     # driver = webdriver.Chrome()
 
-    # driver.get("https://www.google.com")
     driver.get(sample_url)
-    # driver.title  # => "Google"
 
-    # driver.implicitly_wait(0.5)
     time.sleep(5)
     # search_box = driver.find_element(By.NAME, "q")
     # search_button = driver.find_element(By.NAME, "btnK")
@@ -28,10 +26,12 @@ def scrape_site(sample_url):
     # search_button.click()
 
     # driver.find_element(By.NAME, "q").get_attribute("value")  # => "Selenium"
+    if extra_nav == "get-started":
+        get_started = driver.find_element(By.LINK_TEXT, "GET STARTED")
+        get_started.click()
 
     src = driver.page_source
     # driver.quit()
-
 
     # time.sleep(5)
 
